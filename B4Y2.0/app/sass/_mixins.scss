@@ -1,0 +1,14 @@
+@mixin placeholder {
+    &::-webkit-input-placeholder {@content}
+    &::-moz-placeholder {opacity: 1; @content}
+    &:-moz-placeholder {@content}
+    &:-ms-input-placeholder {@content}
+    &.placeholder {@content}
+  }
+
+@mixin flex-center {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}  

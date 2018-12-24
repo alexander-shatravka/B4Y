@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-NRTK2F2');</script>
+	<!-- End Google Tag Manager -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+	<meta charset="UTF-8">
+	<title>Bus4you</title>
+	<meta name="description" content="Пассажирские перевозки Москва Харьков Харьков Москва">
+	<meta name="keywords" content="Харьков Москва как добраться Харьков Москва доехать быстро Маршрутка Попутка Микроавтобус на заказ Посылки Москву Передачи харьков Москва Вещи передать документы Харьков Москва Пассажирские перевозки вернём, т к контролят  это в России, а не у нас) Такси белгород аэропорт Такси Харьков Домодедово  Грузопассажирский перевозки Харьков Москва" />
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="img/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="img/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="img/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="&nbsp;"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="img/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="img/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="img/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="img/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="img/mstile-310x310.png" />
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRTK2F2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="wrapper">
+	<div id="shadow-bg"></div>
+	<form id="full-form" class="popup-form">
+		<h3>Заполните поля</h3>
+		<div class="row">
+			<!-- <label for="name">Ваше имя</label> -->
+			<input type="text" name="name" id="name" placeholder="Ваше Имя">
+		</div>
+		<div class="row phone-row">
+			<label for="phone">Ваш номер телефона *</label>
+			<div class="select-country">
+				<a class="selected"><i class="flag ico-ua"></i>+38</a>
+				<a><i class="flag ico-ru"></i>+7</a>
+				<input type="tel" class = "full-phone-number" id="full-phone-number-order" name="full-phone-number-order">
+			</div>
+			<input type="tel" name="phone" id="phone" class="masked-phone" placeholder="( ___ ) ___ __ __">
+		</div>
+		<div class="row">
+			<input type="text" name="EM" id="EM" placeholder="address@mail.com">
+		</div>
+		<div class="row-hidden"></div>
+		<a href = "#"class="btn-blue" id="btn-order">Забронировать</a>	
+	</form>
+	<form id="call-me-form" class="popup-form">
+		<h3>Заполните поля</h3>
+		<div class="row">
+			<!-- <label for="name">Ваше имя</label> -->
+			<input type="text" name="name" id="name" placeholder="Ваше Имя">
+		</div>
+		<div class="row phone-row">
+			<label for="phone">Ваш номер телефона *</label>
+			<div class="select-country">
+				<a class="selected"><i class="flag ico-ua"></i>+38</a>
+				<a><i class="flag ico-ru"></i>+7</a>
+				<input type="tel" class = "full-phone-number" id="full-phone-number-call" name="full-phone-number-call">
+			</div>
+			<input type="tel" name="phone" id="phone" class="masked-phone" placeholder="( ___ ) ___ __ __">
+		</div>
+		<a href = "#"class="btn-blue" id="btn-order-call">Заказать звонок</a>	
+	</form>
+	<!-- <div id="preloader">
+		<div class="preloader-logo">
+			
+		</div>
+	</div> -->
+	<header>
+		<a href = "index.html" id="logo">Bus<strong>For</strong>You</a>
+		<div class="header-container">
+			<div class="pre-header">
+				<ul class="phones">
+					<li><i class="flag ico-ua"></i><a href="tel:+38 (068) 913 15 18">+38 (068) 913 15 18</a></li>
+					<!-- <li><a href="tel:+38 (073) 127 28 48">+38 (073) 127 28 48</a></li> -->
+					<li><a href="tel:+38 (066) 362 05 06">+38 (066) 362 05 06</a></li>
+					<li><i class="flag ico-ru"></i><a href="tel:+7 (977) 891 33 71">+7 (977) 891 33 71</a></li>
+				</ul>
+			</div>
+			<div class="header">
+				<div class="button-block">
+					<a href="viber://pa?chatURI=bus4you&context=dec82b52-b1df-492b-8331-770bbbc3db03" class="viber"><i class="ico-viber"></i><span>viber бот</span></a>
+					<a href=""  class="phone order-call"><i class="ico-ring"></i><span>заказать звонок</span></a>
+				</div>
+				<ul class="main-nav">
+					<li><a href="#top">Главная</a></li>
+					<li><a href="#about">О сервисе</a></li>
+					<li><a href="#services">Услуги</a>	
+					<li><a href="#feedback">Отзывы</a></li>
+					<!-- <li><a href="index.html">Блог</a></li> -->
+					<!-- <li><a href="index.html">Контакты</a></li> -->
+				</ul>
+			</div>
+		</div>
+		<div class="hamburger hamburger--squeeze">
+			<div class="hamburger-box">
+				<div class="hamburger-inner"></div>
+			</div>
+		</div>
+	</header>
+	<section class="intro-section" id="top">
+		<ul class="phones only-mobile">
+			<li><i class="flag ico-ua"></i><a href="tel:+38 (068) 913 15 18">+38 (068) 913 15 18</a></li>
+			<li><i class="flag ico-ru"></i><a href="tel:+7 (977) 891 33 71">+7 (977) 891 33 71</a></li>
+		</ul>
+		<div class= "route-map"></div>
+		<div class="container-wide">
+			<form id="order">
+				<div class="row-hidden">
+					<input type="text" name="serialize-fix" id="serialize-fix"> <!-- Костыль для ajax date serialize() нескольких форм (не приходит значение 1 поля)-->
+				</div>
+				<!-- <div class="row">
+					<label for="trip-type">Услуга <span>Тип поездки</span></label>
+					<select name="trip-type" id="trip-type">
+						<option value="Международная" selected>Международная</option>
+						<option value="Внутри страны">Внутри страны</option>
+					</select>
+				</div> -->
+				<div class="row">
+					<label for="destination-from">Откуда?</label>
+					<select name="destination-from" id="destination-from">
+						<option value="Харьков" selected>Харьков</option>
+						<option value="Москва">Москва</option>
+					</select>
+				</div>
+				<div class="row">
+					<label for="destination-to">Куда?</label>
+					<select name="destination-to" id="destination-to">
+						<option value="Харьков">Харьков</option>
+						<option value="Москва" selected>Москва</option>
+					</select>
+				</div>
+				<div class="row">
+					<label for="date">Когда?</label>
+					<input name="date" id="date" class="datepicker" type="text" value="" placeholder="" readonly>
+				</div>
+				<div class="row">
+					<label for="time">Время отправки</label>
+					<select name="time" id="time">
+						<option value="18:00" selected>18:00</option>
+						<option value="19:00">19:00</option>
+					</select>
+				</div>
+				<div class="row">
+					<label for="destination-from">Количество человек</label>
+					<input type="number" name="tickets-number" id="tickets-number" min="1" max="10" value="1">
+				</div>
+				<div class="row">
+					<input class="styled-checkbox" name="discount" id="discount" type="checkbox" value="discount">
+					<label class="checkbox-label" for="discount">У меня есть карта</label>
+				</div>
+				<div class="total-row">
+					<div class="row">
+						<label for="destination-from">Стоимость поездки</label>
+						<div class="total-price">0</div><span class="currency">грн</span>
+						<!-- <input type="text" name="total" id="total" value="0" readonly><span class="currency">грн</span> -->
+					</div>
+					<a href = "#"class="form-next btn-blue">Забронировать</a>
+				</div>
+				<div class="row-hidden"><input type="text" name="total" id="total" value="0" readonly></div>
+				<div class="button-block desktop-hidden">
+					<a href="viber://pa?chatURI=bus4you&context=dec82b52-b1df-492b-8331-770bbbc3db03" class="viber"><i class="ico-viber"></i><span>viber бот</span></a>
+					<a href="" class="phone order-call"><i class="ico-ring"></i><span>заказать звонок</span></a>
+				</div>
+			</form>
+		</div>
+	</section>
+	<section class="sub-section advantages-section">
+		<div class="container">
+			<div class="heading-block">
+				<h2>Выбирая нас вы гарантированно получаете</h2>
+			</div>
+			<div class="triple-row badges">
+				<div class="triple-col">
+					<img src="img/badge-shiled.svg" alt="" class="badge-img">
+					<p class="badge-descr">Надежные микроавтобусы  с проверенными водителями</p>
+				</div>
+				<div class="triple-col">
+					<img src="img/badge-house.svg" alt="" class="badge-img">
+					<p class="badge-descr">Возможность заказать услугу "забрать из дому"</p>
+				</div>
+				<div class="triple-col">
+					<img src="img/badge-seat.svg" alt="" class="badge-img">
+					<p class="badge-descr">Комфортные откидные сиденья с местом для ног</p>
+				</div>
+			</div>
+			<div class="triple-row badges">
+				<div class="triple-col">
+					<img src="img/badge-customers.svg" alt="" class="badge-img">
+					<p class="badge-descr">Поддержка при прохождении таможни</p>
+				</div>
+				<div class="triple-col">
+					<img src="img/badge-box.svg" alt="" class="badge-img">
+					<p class="badge-descr">Возможность  передачи посылок</p>
+				</div>
+				<div class="triple-col">
+					<img src="img/badge-family.svg" alt="" class="badge-img">
+					<p class="badge-descr">Наличие детских кресел  для детей</p>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<section class="services-section" id="services">
+		<div class="container slider-container">
+			<div class="heading-block">
+				<h2>Наши услуги</h2>
+			</div>
+			<div class="triple-row mobile-slider">
+				<div class="triple-col">
+					<h4>Международное направление</h4>
+					<p>Микроавтобус по маршрутам Харьков > Москва, Москва > Харьков. Также, в ближайшее время появится много новых маршрутов.</p>
+					<!-- <a href="" class="btn-blue btn-default">Подробнее</a> -->
+				</div>
+				<div class="triple-col">
+					<h4>Заказ микроавтобуса</h4>
+					<p>Вы всегда можете заказать микроавтобус для переезда по городу, за город или по любому интересующему направлению.</p>
+					<!-- <a href="" class="btn-blue btn-default">Подробнее</a> -->
+				</div>
+				<div class="triple-col">
+					<h4>Переезд</h4>
+					<p>Мы всегда, с удовольствием, поможем Вам с переездом, как офисным так и квартирным.</p>
+					<!-- <a href="" class="btn-blue btn-default">Подробнее</a> -->
+				</div>
+			</div>
+			<span class="addition">*Также Вы всегда можете отправить посылку любым подходящим рейсом.</span>
+		</div>	
+	</section>
+	<section class="sub-section advantages-section">
+		<div class="container">
+			<div class="heading-block">
+				<h2>Ваша поездка будет максимально комфортной</h2>
+				<span class="addition">Всё это входит в стоимость билета!</span>
+			</div>
+			<div class="triple-row badges">
+				<div class="triple-col">
+					<img src="img/badge-water.svg" alt="" class="badge-img">
+					<p class="badge-descr"><b>Не испытаете жажду</b></p>
+					<p class="badge-descr">Бутылка воды для каждого места</p>
+				</div>
+				<div class="triple-col">
+					<img src="img/badge-cookies.svg" alt="" class="badge-img">
+					<p class="badge-descr"><b>Сможете подкрепиться</b></p>
+					<p class="badge-descr">Вкусное печенье  и конфеты  для взрослых и детей</p>
+				</div>
+				<div class="triple-col">
+					<img src="img/badge-termometr.svg" alt="" class="badge-img">
+					<p class="badge-descr"><b>Забудете о погоде</b></p>
+					<p class="badge-descr">Включаем кондиционер в жару, выдаем теплые  пледы в холод</p>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<section class="routes-section">
+		<div class="container slider-container">
+			<div class="heading-block">
+				<h2>Ежедневное отправление для вашего удобства</h2>
+			</div>
+			<div class="double-row mobile-slider">
+				<div class="double-col">
+					<h4>Харьков <i class="arrow fas fa-arrow-right"></i> Москва</h4>
+					<ul class="trip-details">
+						<li>Отправление: <b>18:00 - 19:00</b></li>
+						<li>Маршрут: <b>Белгород - Курск - Орел - Тула - Москва</b></li>
+						<li>Место выезда: <b>Южный вокзал</b></li>
+						<li>Стоимость: <b> <span class="price">1000</span> грн</b></li>
+					</ul>
+					<a href="#order" class="btn-anchor btn-blue btn-default">Забронировать</a>
+				</div>
+				<div class="double-col">
+					<h4>Москва <i class="arrow fas fa-arrow-right"></i> Харьков</h4>
+					<ul class="trip-details">
+						<li>Отправление: <b>21:00 - 22:00</b></li>
+						<li>Маршрут: <b>Тула - Орел - Обоянь - Белгород - Харьков</b></li>
+						<li>Место выезда: <b>ст. метро «Борисово» и «Ак. Янгеля»</b></li>
+						<li>Стоимость: <b> <span class="price">2500</span> руб</b></li>
+					</ul>
+					<a href="#order" class="btn-anchor btn-blue btn-default">Забронировать</a>
+				</div>
+			</div>
+			<!-- <a href="routes.html" class="to-main">все маршруты ></a> -->
+		</div>
+	</section>
+	<section class="sub-section advantages-section">
+		<div class="container">
+			<div class="heading-block">
+				<h2>Еще немного о качестве сервиса</h2>
+			</div>
+			<div class="triple-row badges">
+				<div class="triple-col">
+					<img src="img/badge-cleaning.svg" alt="" class="badge-img">
+					<p class="badge-descr"><b>Чистота и свежесть</b></p>
+					<p class="badge-descr">Регулярную химчистка салона</p>
+				</div>
+				<div class="triple-col">
+					<img src="img/badge-tv.svg" alt="" class="badge-img">
+					<p class="badge-descr"><b>Скучно не будет</b></p>
+					<p class="badge-descr">Телевизор в дороге</p>
+				</div>
+				<div class="triple-col">
+					<img src="img/badge-wifi.svg" alt="" class="badge-img">
+					<p class="badge-descr"><b>Всегда на связи</b></p>
+					<p class="badge-descr">Бесплатный Wi-Fi </p>
+				</div>
+			</div>
+		</div>
+	</section>	
+	<section class="feedback-section" id="feedback">
+		<div class="container slider-container">
+			<div class="heading-block">
+				<h2 class="color-white">Отзывы наших клиентов</h2>
+			</div>
+			<div class="feedback-slider">
+				<div class="quad-col"><img class="feed" src="img/feed-1.jpg" alt=""></div>
+				<div class="quad-col"><img class="feed" src="img/feed-2.jpg" alt=""></div>
+				<div class="quad-col"><img class="feed" src="img/feed-3.jpg" alt=""></div>
+				<div class="quad-col"><img class="feed" src="img/feed-4.jpg" alt=""></div>
+				<div class="quad-col"><img class="feed" src="img/feed-5.jpg" alt=""></div>
+				<div class="quad-col"><img class="feed" src="img/feed-6.jpg" alt=""></div>
+				<div class="quad-col"><img class="feed" src="img/feed-7.jpg" alt=""></div>
+				<div class="quad-col"><img class="feed" src="img/feed-8.jpg" alt=""></div>
+			</div>
+			<span class="slick-prev"><img src="img/slick-prev.png" alt=""></span><span class="slick-next"><img src="img/slick-next.png" alt=""></span>
+			<!-- <a href="feedback.html" class="to-main">Все отзывы ></a> -->
+		</div>
+	</section>
+	<section class="sub-section about-section" id="about">
+		<div class="container">
+			<div class="heading-block">
+				<h2>О сервисе Busforyou</h2>
+			</div>
+			<p class="about-p">Наши микроавтобусы с комфортом, без задержек и очередей на границе доставят вас по указанному вами адресу. При необходимости мы заберем вас прямо из дома. Прямых авиарейсов из Харькова в Москву сейчас нет. Чтобы добраться в столицу РФ самолетом, придется сделать несколько пересадок. Путешествие поездом длится несколько суток. Чтобы купить билеты на удобные места, следует бронировать их заранее. С нами же вы доберетесь в Москву и обратно намного быстрее и с комфортом.</p>
+			<!-- <div class="about-video"></div> -->
+			<!-- <a href="about.html" class="btn-blue btn-default">Подробнее</a> -->
+		</div>	
+	</section>
+	<section class="sub-section info-section" id="info">
+		<div class="container">
+			<div class="heading-block">
+				<h2>Информация для пассажира</h2>
+			</div>
+			<ul>
+				<li><span>1.</span>Места в автобусах формируются по предварительной записи. Забронировать место можно по указанным телефонам с 8.00 до 22.00 без выходных. Вы также можете заказать «обратный звонок» через <a href="viber://pa?chatURI=bus4you&context=dec82b52-b1df-492b-8331-770bbbc3db03">Viber</a> или <a class="call-order-trigger">Telegram</a>. Наши диспетчеры любезно ответят на любые ваши вопросы и зарезервируют для вас место.</li>
+
+				<li><span>2.</span>За день до поездки наш сотрудник повторно свяжется с вами, чтобы подтвердить заказ и уточнить детали поездки. После этого вам сообщат время и место отправления, а также номер и марку микроавтобуса.</li> 
+
+				<li><span>3.</span>Если вы находитесь на территории РФ, вы также можете заранее забронировать место в автобусе, позвонив по указанным номерам телефонов. </li>
+
+				<li><span>4.</span>В случае, если с вами нет связи, бронь за 3 часа до выезда автоматически аннулируется.</li>
+
+				<li><span>5.</span>При бронировании более 4-х мест требуется внести предоплату в размере 30% от стоимости проезда.</li>
+
+				<li><span>6.</span>Если поездка для вас уже не актуальна, предупредите нас об этом как можно раньше.</li>
+			</ol>
+		</div>	
+	</section>
+	<!-- <section class="blog-section">
+		<div class="container">
+			<div class="heading-block">
+				<h2>Наш блог</h2>
+			</div>
+			<div class="triple-row">
+				<div class="triple-col">
+					<h4>Пересечение границы</h4>
+					<p>Чтобы пересечь границу между Украиной и Российской Федерацией, гражданину Украины следует иметь при себе любой ...</p>
+					<a href="" class="btn-blue btn-default">Подробнее</a>
+				</div>
+				<div class="triple-col">
+					<h4>Как организовать поездку детей</h4>
+					<p>Путешествие вместе с детьми — это всегда море положительных эмоций, но и большая ответственность. Учителя... </p>
+					<a href="" class="btn-blue btn-default">Подробнее</a>
+				</div>
+				<div class="triple-col">
+					<h4>Рассчитываем время поездки	</h4>
+					<p>Важными составляющими каждого путешествия являются планирование и контроль. Правильно рассчитать время...</p>
+					<a href="" class="btn-blue btn-default">Подробнее</a>
+				</div>
+			</div>
+		</div>	
+	</section> -->
+	<footer>
+		<div class="container">
+			<a href="mailto:busforyouticket@gmail.com ">busforyouticket@gmail.com</a>
+			<!-- <ul class="social">
+				<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href=""><i class="fab fa-instagram"></i></a></li>
+				<li><a href=""><i class="fab fa-vk"></i></a></li>
+			</ul> -->
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<span>© BusForYou 2018</span>
+				<!-- <span class="created-by">Created by <a href="http://viral.com.ua/">VIRAL</a></span> -->
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/libs.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/data-trips.js"></script>
+<script src="js/common.js"></script>
+<script src="js/ajax.js"></script>
+
+</body>
+</html>
