@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-NRTK2F2');</script>
+	<!-- End Google Tag Manager -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+	<meta charset="UTF-8">
+	<title>Bus4you</title>
+	<meta name="description" content="Пассажирские перевозки Москва Харьков Харьков Москва">
+	<meta name="keywords" content="Харьков Москва как добраться Харьков Москва доехать быстро Маршрутка Попутка Микроавтобус на заказ Посылки Москву Передачи харьков Москва Вещи передать документы Харьков Москва Пассажирские перевозки вернём, т к контролят  это в России, а не у нас) Такси белгород аэропорт Такси Харьков Домодедово  Грузопассажирский перевозки Харьков Москва" />
+	<link rel="stylesheet" href="../css/libs.min.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="../img/apple-touch-icon-60x60.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../img/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="../img/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../img/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="../img/favicon-196x196.png" sizes="196x196" />
+	<link rel="icon" type="image/png" href="../img/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="../img/favicon-16x16.png" sizes="16x16" />
+	<link rel="icon" type="image/png" href="../img/favicon-128.png" sizes="128x128" />
+	<meta name="application-name" content="&nbsp;"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="../img/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="../img/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="../img/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="../img/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="../img/mstile-310x310.png" />
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRTK2F2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="wrapper">
+	<div id="shadow-bg"></div>
+	<form id="full-form" class="popup-form">
+		<h3>Заполните поля</h3>
+		<div class="row">
+			<!-- <label for="name">Ваше имя</label> -->
+			<input type="text" name="name" id="name" placeholder="Ваше Имя">
+		</div>
+		<div class="row phone-row">
+			<label for="phone">Ваш номер телефона *</label>
+			<div class="select-country">
+				<a class="selected"><i class="flag ico-ua"></i>+38</a>
+				<a><i class="flag ico-ru"></i>+7</a>
+				<input type="tel" class = "full-phone-number" id="full-phone-number-order" name="full-phone-number-order">
+			</div>
+			<input type="tel" name="phone" id="phone" class="masked-phone" placeholder="( ___ ) ___ __ __">
+		</div>
+		<div class="row">
+			<input type="text" name="EM" id="EM" placeholder="address@mail.com">
+		</div>
+		<div class="row-hidden"></div>
+		<a href = "#"class="btn-blue" id="btn-order">Забронировать</a>	
+	</form>
+	<form id="call-me-form" class="popup-form">
+		<h3>Заполните поля</h3>
+		<div class="row">
+			<!-- <label for="name">Ваше имя</label> -->
+			<input type="text" name="name" id="name" placeholder="Ваше Имя">
+		</div>
+		<div class="row phone-row">
+			<label for="phone">Ваш номер телефона *</label>
+			<div class="select-country">
+				<a class="selected"><i class="flag ico-ua"></i>+38</a>
+				<a><i class="flag ico-ru"></i>+7</a>
+				<input type="tel" class = "full-phone-number" id="full-phone-number-call" name="full-phone-number-call">
+			</div>
+			<input type="tel" name="phone" id="phone" class="masked-phone" placeholder="( ___ ) ___ __ __">
+		</div>
+		<a href = "#"class="btn-blue" id="btn-order-call">Заказать звонок</a>	
+	</form>
+	<!-- <div id="preloader">
+		<div class="preloader-logo">
+			
+		</div>
+	</div> -->
+	<header>
+		<a href = "../index.html" id="logo">Bus<strong>For</strong>You</a>
+		<div class="header-container">
+			<div class="pre-header">
+				<ul class="phones">
+					<li><i class="flag ico-ua"></i><a href="tel:+38 (068) 913 15 18">+38 (068) 913 15 18</a></li>
+					<!-- <li><a href="tel:+38 (073) 127 28 48">+38 (073) 127 28 48</a></li> -->
+					<li><a href="tel:+38 (066) 362 05 06">+38 (066) 362 05 06</a></li>
+					<li><i class="flag ico-ru"></i><a href="tel:+7 (977) 891 33 71">+7 (977) 891 33 71</a></li>
+				</ul>
+			</div>
+			<div class="header">
+				<div class="button-block">
+					<a href="viber://pa?chatURI=bus4you&context=dec82b52-b1df-492b-8331-770bbbc3db03" class="viber"><i class="ico-viber"></i><span>viber бот</span></a>
+					<a href=""  class="phone order-call"><i class="ico-ring"></i><span>заказать звонок</span></a>
+				</div>
+				<ul class="main-nav">
+					<li><a href="../index.html">Главная</a></li>
+					<li><a href="../index.html#about">О сервисе</a></li>
+					<li><a href="../index.html#services">Услуги</a>	
+					<li><a href="../index.html#feedback">Отзывы</a></li>
+					<li><a href="../blog.html">Блог</a></li>
+					<!-- <li><a href="index.html">Контакты</a></li> -->
+				</ul>
+			</div>
+		</div>
+		<div class="hamburger hamburger--squeeze">
+			<div class="hamburger-box">
+				<div class="hamburger-inner"></div>
+			</div>
+		</div>
+	</header>
+	
+	<main class="blog">
+		<div class="container">
+
+			<section class="article-section">
+				<div class="container">
+					<h2>Готовимся к дальней поездке</h2>
+
+					<p>
+						Любое путешествие требует детальной подготовки. От того, насколько рационально вы распределили свое время и бюджет, зависит успех вашей поездки. Чтобы правильно подготовиться к путешествию, сначала настройтесь на переезд, осознайте, что в любом случае все не будет так идеально, как вы себе представляете, поскольку какие-то мелочи и недоразумения обязательно произойдут.
+					</p>
+					<p>
+						После духовных практик, переходите непосредственно к сборам в дорогу. Условно ваши действия можно разделить на 3 вида:
+					</p>
+					<ol>
+						<li>
+							<b>Подготовка документов.</b> 
+							Даже незначительная поездка в соседний город не обходится без разнообразных бумаг. Именно поэтому заранее тщательно проверьте их наличие.
+						</li>
+						<li>
+							<b>Сбор вещей.</b> 
+							На этом этапе подготовки к поездке следует предварительно составить список тех вещей, которые вы возьмете с собой в дорогу. От размера списка будет зависеть вес чемодана и его габариты. В идеале складывайте чемоданы в несколько этапов.
+						</li>
+						<li>
+							<b>Упаковка чемоданов.</b> 
+							Взять с собой в дорогу все любимые вещи и предметы личной гигиены не получиться — ограниченное пространство требует качественного планирования.
+						</li>
+					</ol>
+					<p>
+						Последовательный подход на каждом этапе позволит вам успешно подготовиться к дальним поездкам, а также обеспечит только положительные эмоции.
+					</p>
+
+					<h3>Первые шаги в подготовке к путешествию</h3>
+					<p>
+						Путешествие — это мероприятие. И как любое мероприятие, оно должно иметь цели и подробный план. Перед поездкой: 
+					</p>
+					<ul>
+						<li>
+							составьте список задач, которые вы должны решить во время своего путешествия; 
+						</li>
+						<li>
+							определите бюджет; 
+						</li>
+						<li>
+							составьте маршрут с учетом времени. 
+						</li>
+					</ul>
+					<p>
+						Если потребуется, поищите дополнительную информацию в интернете или спросите у наших диспетчеров — каждая мелочь может оказаться полезной.
+					</p>
+
+					<div class="article-time">
+						<time class="article-time__news-time" datetime="2018-26-09">26.09.2018</time>
+
+						<!-- <ul class="social-button-list">
+							<li class="social-button-item">
+								<a class="social-button" href="#">
+									<svg 
+										xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink"
+										width="8px" height="14px">
+										<path fill-rule="evenodd"  fill="rgb(0, 0, 0)"
+										d="M7.698,-0.006 L5.778,-0.009 C3.622,-0.009 2.228,1.346 2.228,3.442 L2.228,5.033 L0.298,5.033 C0.131,5.033 -0.003,5.161 -0.003,5.319 L-0.003,7.623 C-0.003,7.782 0.132,7.909 0.298,7.909 L2.228,7.909 L2.228,13.726 C2.228,13.884 2.363,14.011 2.530,14.011 L5.048,14.011 C5.215,14.011 5.350,13.884 5.350,13.726 L5.350,7.909 L7.606,7.909 C7.773,7.909 7.908,7.782 7.908,7.623 L7.909,5.319 C7.909,5.243 7.877,5.171 7.820,5.117 C7.764,5.063 7.687,5.033 7.607,5.033 L5.350,5.033 L5.350,3.684 C5.350,3.036 5.513,2.707 6.404,2.707 L7.697,2.707 C7.864,2.707 7.999,2.578 7.999,2.421 L7.999,0.280 C7.999,0.122 7.864,-0.006 7.698,-0.006 Z"/>
+									</svg>
+								</a>
+							</li>
+							<li class="social-button-item">
+								<a class="social-button" href="#">
+									<svg 
+										xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink"
+										width="16px" height="16px">
+										<path fill-rule="evenodd"  fill="rgb(0, 0, 0)"
+										d="M11.585,16.004 L4.409,16.004 C1.972,16.004 -0.011,14.022 -0.011,11.585 L-0.011,4.408 C-0.011,1.971 1.972,-0.011 4.409,-0.011 L11.585,-0.011 C14.022,-0.011 16.005,1.971 16.005,4.408 L16.005,11.585 C16.005,14.022 14.022,16.004 11.585,16.004 ZM14.583,11.585 L14.583,4.408 C14.583,2.754 13.238,1.409 11.585,1.409 L4.409,1.409 C2.755,1.409 1.410,2.754 1.410,4.408 L1.410,11.585 C1.410,13.238 2.755,14.583 4.409,14.583 L11.585,14.583 C13.238,14.583 14.584,13.238 14.584,11.585 L14.583,11.585 ZM12.297,4.749 C12.023,4.749 11.754,4.637 11.561,4.444 C11.366,4.249 11.255,3.981 11.255,3.707 C11.255,3.431 11.366,3.163 11.561,2.970 C11.754,2.776 12.023,2.664 12.297,2.664 C12.571,2.664 12.840,2.776 13.034,2.970 C13.228,3.163 13.339,3.431 13.339,3.707 C13.339,3.981 13.228,4.249 13.034,4.444 C12.839,4.637 12.571,4.749 12.297,4.749 ZM7.997,12.124 C5.721,12.124 3.870,10.272 3.870,7.996 C3.870,5.720 5.721,3.870 7.997,3.870 C10.272,3.870 12.124,5.720 12.124,7.996 C12.124,10.272 10.272,12.124 7.997,12.124 ZM7.997,5.290 C6.505,5.290 5.291,6.504 5.291,7.996 C5.291,9.488 6.505,10.701 7.997,10.701 C9.489,10.701 10.703,9.488 10.703,7.996 C10.703,6.504 9.489,5.290 7.997,5.290 Z"/>
+									</svg>
+								</a>
+							</li>
+							<li class="social-button-item">
+								<a class="social-button" href="#">
+										<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										width="16px" height="16px" viewBox="0 0 548.358 548.358" style="enable-background:new 0 0 548.358 548.358;"
+										xml:space="preserve">
+								   <g>
+									   <path fill="rgb(0, 0, 0)" d="M545.451,400.298c-0.664-1.431-1.283-2.618-1.858-3.569c-9.514-17.135-27.695-38.167-54.532-63.102l-0.567-0.571
+										   l-0.284-0.28l-0.287-0.287h-0.288c-12.18-11.611-19.893-19.418-23.123-23.415c-5.91-7.614-7.234-15.321-4.004-23.13
+										   c2.282-5.9,10.854-18.36,25.696-37.397c7.807-10.089,13.99-18.175,18.556-24.267c32.931-43.78,47.208-71.756,42.828-83.939
+										   l-1.701-2.847c-1.143-1.714-4.093-3.282-8.846-4.712c-4.764-1.427-10.853-1.663-18.278-0.712l-82.224,0.568
+										   c-1.332-0.472-3.234-0.428-5.712,0.144c-2.475,0.572-3.713,0.859-3.713,0.859l-1.431,0.715l-1.136,0.859
+										   c-0.952,0.568-1.999,1.567-3.142,2.995c-1.137,1.423-2.088,3.093-2.848,4.996c-8.952,23.031-19.13,44.444-30.553,64.238
+										   c-7.043,11.803-13.511,22.032-19.418,30.693c-5.899,8.658-10.848,15.037-14.842,19.126c-4,4.093-7.61,7.372-10.852,9.849
+										   c-3.237,2.478-5.708,3.525-7.419,3.142c-1.715-0.383-3.33-0.763-4.859-1.143c-2.663-1.714-4.805-4.045-6.42-6.995
+										   c-1.622-2.95-2.714-6.663-3.285-11.136c-0.568-4.476-0.904-8.326-1-11.563c-0.089-3.233-0.048-7.806,0.145-13.706
+										   c0.198-5.903,0.287-9.897,0.287-11.991c0-7.234,0.141-15.085,0.424-23.555c0.288-8.47,0.521-15.181,0.716-20.125
+										   c0.194-4.949,0.284-10.185,0.284-15.705s-0.336-9.849-1-12.991c-0.656-3.138-1.663-6.184-2.99-9.137
+										   c-1.335-2.95-3.289-5.232-5.853-6.852c-2.569-1.618-5.763-2.902-9.564-3.856c-10.089-2.283-22.936-3.518-38.547-3.71
+										   c-35.401-0.38-58.148,1.906-68.236,6.855c-3.997,2.091-7.614,4.948-10.848,8.562c-3.427,4.189-3.905,6.475-1.431,6.851
+										   c11.422,1.711,19.508,5.804,24.267,12.275l1.715,3.429c1.334,2.474,2.666,6.854,3.999,13.134c1.331,6.28,2.19,13.227,2.568,20.837
+										   c0.95,13.897,0.95,25.793,0,35.689c-0.953,9.9-1.853,17.607-2.712,23.127c-0.859,5.52-2.143,9.993-3.855,13.418
+										   c-1.715,3.426-2.856,5.52-3.428,6.28c-0.571,0.76-1.047,1.239-1.425,1.427c-2.474,0.948-5.047,1.431-7.71,1.431
+										   c-2.667,0-5.901-1.334-9.707-4c-3.805-2.666-7.754-6.328-11.847-10.992c-4.093-4.665-8.709-11.184-13.85-19.558
+										   c-5.137-8.374-10.467-18.271-15.987-29.691l-4.567-8.282c-2.855-5.328-6.755-13.086-11.704-23.267
+										   c-4.952-10.185-9.329-20.037-13.134-29.554c-1.521-3.997-3.806-7.04-6.851-9.134l-1.429-0.859c-0.95-0.76-2.475-1.567-4.567-2.427
+										   c-2.095-0.859-4.281-1.475-6.567-1.854l-78.229,0.568c-7.994,0-13.418,1.811-16.274,5.428l-1.143,1.711
+										   C0.288,140.146,0,141.668,0,143.763c0,2.094,0.571,4.664,1.714,7.707c11.42,26.84,23.839,52.725,37.257,77.659
+										   c13.418,24.934,25.078,45.019,34.973,60.237c9.897,15.229,19.985,29.602,30.264,43.112c10.279,13.515,17.083,22.176,20.412,25.981
+										   c3.333,3.812,5.951,6.662,7.854,8.565l7.139,6.851c4.568,4.569,11.276,10.041,20.127,16.416
+										   c8.853,6.379,18.654,12.659,29.408,18.85c10.756,6.181,23.269,11.225,37.546,15.126c14.275,3.905,28.169,5.472,41.684,4.716h32.834
+										   c6.659-0.575,11.704-2.669,15.133-6.283l1.136-1.431c0.764-1.136,1.479-2.901,2.139-5.276c0.668-2.379,1-5,1-7.851
+										   c-0.195-8.183,0.428-15.558,1.852-22.124c1.423-6.564,3.045-11.513,4.859-14.846c1.813-3.33,3.859-6.14,6.136-8.418
+										   c2.282-2.283,3.908-3.666,4.862-4.142c0.948-0.479,1.705-0.804,2.276-0.999c4.568-1.522,9.944-0.048,16.136,4.429
+										   c6.187,4.473,11.99,9.996,17.418,16.56c5.425,6.57,11.943,13.941,19.555,22.124c7.617,8.186,14.277,14.271,19.985,18.274
+										   l5.708,3.426c3.812,2.286,8.761,4.38,14.853,6.283c6.081,1.902,11.409,2.378,15.984,1.427l73.087-1.14
+										   c7.229,0,12.854-1.197,16.844-3.572c3.998-2.379,6.373-5,7.139-7.851c0.764-2.854,0.805-6.092,0.145-9.712
+										   C546.782,404.25,546.115,401.725,545.451,400.298z"/>
+								   </g>
+								   </svg>
+								</a>
+							</li>
+						</ul> -->
+					</div>
+				</div>
+			</section>
+
+			<section class="navigation">
+				<div class="search">
+					<input class="navigation__search search__input" type="text" name="search" placeholder="Поиск">
+				</div>
+				<div class="searchform">
+					<h3 class="searchform__title">Последние новости</h3>
+					<ul class="searchform__last-news">
+						<li class="last-news__item">
+							<a href="frugally.html" class="last-news__link">
+								<h4 class="blog__news-title last-news__news-title">Путешествуйте экономно</h4>
+								<time class="blog__news-time last-news__news-time" datetime="2018-26-09">26.09.2018</time>
+							</a>
+						</li>
+						<li class="last-news__item">
+							<a href="travel-time.html" class="last-news__link">
+								<h4 class="blog__news-title last-news__news-title">Рассчитываем время поездки</h4>
+								<time class="blog__news-time last-news__news-time" datetime="2018-26-09">26.09.2018</time>
+							</a>
+						</li>
+						<li class="last-news__item">
+							<a href="long-trip.html" class="last-news__link">
+								<h4 class="blog__news-title last-news__news-title">Готовимся к дальней поездке</h4>
+								<time class="blog__news-time last-news__news-time" datetime="2018-26-09">26.09.2018</time>
+							</a>
+						</li>
+					</ul>
+
+					<!-- <h3 class="searchform__title">Последние комментарии</h3>
+					<ul class="searchform__comments">
+						<li class="comments__item">
+							<a href="#" class="comments__link">
+								<span class="comments__commentator">Александр</span> в
+								<h4 class="comments__news-title">"Рассчитываем время поездки"</h4>
+								<time class="comments__news-time" datetime="2018-26-09">26.09.2018</time>
+							</a>
+						</li>
+					</ul> -->
+
+					<!-- <h3 class="searchform__title">Архив</h3>
+					<ul class="searchform__archive">
+						<li class="archive__item">
+							<a href="#" class="archive__link">
+								Август 2018
+							</a>
+						</li>
+						<li class="archive__item">
+							<a href="#" class="archive__link">
+								Сентябрь 2018
+							</a>
+						</li>
+						<li class="archive__item">
+							<a href="#" class="archive__link">
+								Октябрь 2018
+							</a>
+						</li>
+					</ul>
+
+					<h3 class="searchform__title">Категории</h3>
+					<ul class="searchform__categories">
+						<li class="categories__item">
+							<a href="#" class="categories__link">
+								Микроавтобусы
+							</a>
+						</li>
+						<li class="categories__item">
+							<a href="#" class="categories__link">
+								Переезд
+							</a>
+						</li>
+						<li class="categories__item">
+							<a href="#" class="categories__link">
+								Перевозки
+							</a>
+						</li>
+						<li class="categories__item">
+							<a href="#" class="categories__link">
+								Пассажирские перевозки
+							</a>
+						</li>
+						<li class="categories__item">
+							<a href="#" class="categories__link">
+								Без рубрики
+							</a>
+						</li>
+					</ul> -->
+				</div>
+			</section>
+
+		</div>
+	</main>
+	
+	<footer>
+		<div class="container">
+			<a href="mailto:busforyouticket@gmail.com ">busforyouticket@gmail.com</a>
+			<!-- <ul class="social">
+				<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href=""><i class="fab fa-instagram"></i></a></li>
+				<li><a href=""><i class="fab fa-vk"></i></a></li>
+			</ul> -->
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<span>© BusForYou 2018</span>
+				<!-- <span class="created-by">Created by <a href="http://viral.com.ua/">VIRAL</a></span> -->
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="../js/libs.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="../js/data-trips.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/ajax.js"></script>
+
+</body>
+</html>
