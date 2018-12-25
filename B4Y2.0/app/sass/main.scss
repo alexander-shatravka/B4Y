@@ -1885,6 +1885,10 @@ footer {
 	
 	padding-top: 150px;
 
+	@include media('<tablet') {
+		padding-top: 80px;
+	}
+
 	.container {
 		display: flex;
 		flex-wrap: wrap;
@@ -1892,6 +1896,21 @@ footer {
 
 		&:after {
 			content: none;
+		}
+
+		@include media('<tablet') {
+			display: block;
+
+			.article-section {
+				width: 100%;
+			}
+
+			.navigation {
+				padding-left: 0;
+				padding-bottom: 30px;
+				width: 100%;
+				min-height: auto;
+			}
 		}
 	
 		.blog-section {
@@ -1909,6 +1928,8 @@ footer {
 			}
 	
 			@include media('<tablet') {
+				width: 100%;
+
 				.triple-col {
 					position: relative;
 					width: 100%;
