@@ -79,10 +79,9 @@ function initTrips(){
 }
 
 function initAnchorsScroll(){
-    $(".main-nav a, .btn-anchor").on("click", function (event) {
-        event.preventDefault();
+    $(".index-nav a, .btn-anchor").on("click", function (event) {
         if($(this).hasClass('non-anchor' === false)){
-            
+            event.preventDefault(); 
         }
         $('.hamburger').removeClass('is-active'); 
         $('.header-container').removeClass('is-open');  
